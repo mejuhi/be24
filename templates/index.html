@@ -1,0 +1,288 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>stock market prediction</title>
+<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='bootstrap.min.css')}}">
+<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='flexslider.css')}}">
+<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='jquery.fancybox.css')}}">
+<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='main.css')}}">
+<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='responsive.css')}}">
+<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='font-icon.css')}}">
+<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='animate.min.css')}}">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<!-- header section -->
+<section class="banner" role="banner" style="background: linear-gradient( #021A46, #5c86d1);">
+  <header id="header">
+    <div class="header-content clearfix"> <a class="logo" href="index.html">Predictify</a>
+      <nav class="navigation" role="navigation">
+        <ul class="primary-nav">
+          <li><a href="#intro">About</a></li>
+          <li><a href="#services">services</a></li>
+          
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="#" class="nav-toggle">Menu<span></span></a> </div>
+  </header>
+  <!-- banner text -->
+  <div class="container">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="banner-text text-center">
+        <h1>Predictify</h1>
+        <p>predict the clever way</p>
+        <a href="#" class="btn btn-large">Login</a> </div>
+      <!-- banner text --> 
+    </div>
+  </div>
+
+</section>
+<!-- header section --> 
+<!-- intro section -->
+<section id="intro" class="section intro">
+  <div class="container">
+    <div class="col-md-8 col-md-offset-2 text-center">
+      <h3>We've got what you need!</h3>
+      <p></p>
+    </div>
+  </div>
+</section>
+<!-- intro section --> 
+<!-- services section -->
+<section id="services" class="services service-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-6 services text-center"> <span class="icon icon-strategy"></span>
+        <div class="services-content">
+          <form action="/forward/" method="post">
+            <button name="forwardBtn" type="submit">Strategy</button>
+        </form>
+          <p>.</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 services text-center"> <span class="icon icon-briefcase"></span>
+        <div class="services-content">
+          <h5>Consulting</h5>
+          <p></p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 services text-center"> <span class="icon icon-tools"></span>
+        <div class="services-content">
+          <h5>Stock price Estimation</h5>
+          <p></p>
+        </div>
+      </div>
+     
+    </div>
+  </div>
+</section>
+<!-- services section --> 
+<!-- work section -->
+<section id="works" class="works section no-padding">
+  <div class="container-fluid">
+    <div class="row no-gutter">
+      <div class="col-lg-3 col-md-4 col-sm-4 work"> <a href="{{url_for('static',filename='work-1.jpg')}}" class="work-box"> <img src="{{url_for('static',filename='work-1.jpg')}}" height="50" alt="">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <h5>Richard Thaler</h5>
+			<p></p>
+            <p>"Investors must keep in mind that ther's a difference between a good company and good stock"</p>
+          </div>
+        </div>
+        <!-- overlay --> 
+        </a> </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="{{url_for('static',filename='work-2.jpg')}}" class="work-box"> <img src="{{url_for('static',filename='work-2.jpg')}}" alt="">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <h5>Robert Arnott</h5>
+			<p></p>
+            <p>"In investing, What is comfortable is rarely profitable"</p>
+          </div>
+        </div>
+        <!-- overlay --> 
+        </a> </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="{{url_for('static',filename='work-3.jpg')}}" class="work-box"> <img src="{{url_for('static',filename='work-3.jpg')}}" alt="">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <h5>Warren Buffett</h5>
+            <p>“ Great investment opportunities come around when excellent companies are surrounded by unusual circumstances that cause the stock to be misappraised.”</p>
+          </div>
+        </div>
+        <!-- overlay --> 
+        </a> </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="{{url_for('static',filename='work-4.jpg')}}" class="work-box"> <img src="{{url_for('static',filename='work-4.jpg')}}" alt="">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <h5>George Soros</h5>
+            <p> ”I’m only rich because I know when I’m wrong…I basically have survived by recognizing my mistakes.”</p>
+          </div>
+        </div>
+        <!-- overlay --> 
+        </a> </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="{{url_for('static',filename='work-5.jpg')}}" class="work-box"> <img src="{{url_for('static',filename='work-5.jpg')}}" alt="">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <h5>David Rubenstein</h5>
+            <p>“Persist don’t take no for an answer. If you’re happy to sit at your desk and not take any risk, you’ll be sitting at your desk for the next 20 years.”</p>
+          </div>
+        </div>
+        <!-- overlay --> 
+        </a> </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="{{url_for('static',filename='work-6.jpg')}}" class="work-box"> <img src="{{url_for('static',filename='work-6.jpg')}}" alt="">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <h5>Jim Rogers</h5>
+            <p>" Bottoms in the investment world don't ends with four-year lows; they end with 10 or 15 year low."</p>
+          </div>
+        </div>
+        <!-- overlay --> 
+        </a> </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="{{url_for('static',filename='work-7.jpg')}}" class="work-box"> <img src="{{url_for('static',filename='work-7.jpg')}}" alt="">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <h5>Dave Ramsey</h5>
+            <p>" Financial peace isn't the acquisation of stuff. It's learning to live on less than you make, so you can give money back and have money to invest."</p>
+          </div>
+        </div>
+        <!-- overlay --> 
+        </a> </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="{{url_for('static',filename='work-8.jpg')}}" class="work-box"> <img src="{{url_for('static',filename='work-8.jpg')}}" alt="">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <h5>Benjamin Franklin</h5>
+            <p>" An investment in knowledge pays the best interest."</p>
+          </div>
+        </div>
+        <!-- overlay --> 
+        </a> </div>
+    </div>
+  </div>
+</section>
+<!-- work section --> 
+<!-- our team section -->
+
+<!-- our team section --> 
+<!-- Testimonials section -->
+<section id="testimonials" class="section testimonials no-padding">
+  <div class="container-fluid" >
+    <div class="row no-gutter">
+      <div class="flexslider">
+        <ul class="slides">
+          <li>
+            <div class="col-md-12">
+              <blockquote>
+                
+              </blockquote>
+            </div>
+          </li>
+          <li>
+            <div class="col-md-12">
+              <blockquote>
+                
+              </blockquote>
+            </div>
+          </li>
+          <li>
+            <div class="col-md-12">
+              <blockquote>
+                
+              </blockquote>
+            </div>
+          </li>
+          <li>
+            <div class="col-md-12">
+              <blockquote>
+                
+              </blockquote>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Testimonials section --> 
+
+<!-- contact section -->
+<section id="contact" class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 conForm">
+        <h5>Contact Us</h5>
+        <p>We are happy to talk you through any query or run live demos for those wishing to see what it is to use our products and how they look like.</p>
+        <div id="message"></div>
+        <form method="post" action="php/contact.php" name="cform" id="cform">
+          <input name="name" id="name" type="text" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Your name..." >
+          <input name="email" id="email" type="email" class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 noMarr" placeholder="Email Address..." >
+          <textarea name="comments" id="comments" cols="" rows="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Message..."></textarea>
+          <input type="submit" id="submit" name="send" class="submitBnt" value="Send your query">
+          <div id="simple-msg"></div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- contact section --> 
+
+<!-- Footer section -->
+<footer class="footer">
+  <div class="footer-top section">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col col-md-6">
+          <h5>Our Office Location</h5>
+          <p>West street,Lower Parel Mumbai-40022.<br>
+            1800 1234 56789 / 98532100987<br>
+            support@buy/sell.com</p>
+          
+        </div>
+        <div class="footer-col col-md-3">
+          <h5>Services We Offer</h5>
+          <p>
+          <ul>
+            <li><a href="#">Portfolio Strategy</a></li>
+            <li><a href="#">Consulting</a></li>
+            <li><a href="#">Stock Price Estimation</a></li>
+            
+          </ul>
+          </p>
+        </div>
+        <div class="footer-col col-md-3">
+          <h5>Share</h5>
+          <ul class="footer-share">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer top --> 
+  
+</footer>
+<!-- Footer section --> 
+<!-- JS FILES --> 
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+<script type="text/javascript" src="('static',filename='bootstrap.min.js')"></script> 
+<script type="text/javascript" src="('static',filename='jquery.flexslider-min.js')"></script> 
+<script type="text/javascript" src="('static',filename='jquery.fancybox.pack.js')"></script> 
+<script type="text/javascript" src="('static',filename='retina.min.js')"></script> 
+<script type="text/javascript" src="('static',filename='modernizr.js')"></script> 
+<script type="text/javascript" src="('static',filename='main.js'))"></script> 
+<script type="text/javascript" src="('static',filename='jquery.contact.js')"></script>
+</body>
+</html>

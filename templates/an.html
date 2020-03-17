@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>stock market prediction</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='bootstrap.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='flexslider.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='jquery.fancybox.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='main.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='responsive.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='font-icon.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='animate.min.css')}}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+        <section id="intro" class="section intro">
+                <div class="container">
+                  <div class="col-md-8 col-md-offset-2 text-center">
+                    <h2 style="color:aliceblue">Strategize</h2>
+                    <p>Here you can analyse past movement of stock and prepare for your next move</p>
+                  </div>
+                </div>
+              </section>
+    <div class="container" allign="center">
+        <embed type="image/svg+xml" src={{graph_data|safe}} style='max-width:950px; padding-left:160px; padding-top:20px; padding-bottom:25px;'/>
+    </div>
+
+    <!-- Footer section -->
+<footer class="footer">
+        <div class="footer-top section">
+          <div class="container">
+            <div class="row">
+              <div class="footer-col col-md-6">
+                <h5>Our Office Location</h5>
+                <p>West street,Lower Parel Mumbai-40022.<br>
+                  1800 1234 56789 / 98532100987<br>
+                  support@buy/sell.com</p>
+                
+              </div>
+              <div class="footer-col col-md-3">
+                <h5>Services We Offer</h5>
+                <p>
+                <ul>
+                  <li><a href="#">Portfolio Strategy</a></li>
+                  <li><a href="#">Consulting</a></li>
+                  <li><a href="#">Stock Price Estimation</a></li>
+                  
+                </ul>
+                </p>
+              </div>
+              <div class="footer-col col-md-3">
+                <h5>Share</h5>
+                <ul class="footer-share">
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- footer top --> 
+        
+      </footer>
+
+
+</body>
+</html>
